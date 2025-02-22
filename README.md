@@ -1,10 +1,8 @@
 # codevideo-frontend
 
-<img src="https://img.shields.io/npm/v/@fullstackcraftllc/codevideo-frontend"/> <img src="https://img.shields.io/codecov/c/github/codevideo/codevideo-frontend"/>
+<img src="https://img.shields.io/npm/v/@fullstackcraftllc/codevideo-frontend"/>
 
 The frontend engine used to create videos on [https://codevideo.io](https://codevideo.io)
-
-**_This package is about as unstable as you can get. Consider it even below alpha status. It is brand new and under considerable development._**
 
 ## GitHub Pages Example
 

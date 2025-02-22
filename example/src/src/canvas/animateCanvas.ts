@@ -33,7 +33,8 @@ export const animateCanvas = async (
 
   const codeLines = code.split("\n");
 
-  const initializeMonaco = new Promise((res) =>
+  // tokenizing won't immediately be initialized - so we need to wait for it, put in a bit of code
+  const initializeMonaco = () => new Promise((res) =>
     setTimeout(() => {
       monaco.editor.tokenize(
         `export const dummy = () => {
@@ -44,7 +45,7 @@ export const animateCanvas = async (
       res("");
     }, 1000)
   );
-  await initializeMonaco;
+  await initializeMonaco();
 
   const tokens = monaco.editor.tokenize(code, language);
 

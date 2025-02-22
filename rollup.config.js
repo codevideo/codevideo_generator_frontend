@@ -15,7 +15,8 @@ export default [
       "@ffmpeg/ffmpeg",
       "@ffmpeg/util",
       "monaco-editor-core",
-      "@fullstackcraftllc/virtual-code-block",
+      "monaco-themes/themes/Monokai.json", // TODO: a theme should NOT be a dependency
+      "@fullstackcraftllc/codevideo-virtual-editor",
     ],
   },
   // type declarations
@@ -32,7 +33,8 @@ export default [
       "@ffmpeg/ffmpeg",
       "@ffmpeg/util",
       "monaco-editor-core",
-      "@fullstackcraftllc/virtual-code-block",
+      "monaco-themes/themes/Monokai.json", // TODO: a theme should NOT be a dependency
+      "@fullstackcraftllc/codevideo-virtual-editor",
     ],
   },
 ];
